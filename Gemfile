@@ -1,12 +1,13 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
-
+ruby '2.7.2'
 gem "rails", "~> 5.2.8"
 
-gem "mysql2"
+# gem "mysql2"
 gem "pg"
-gem "sqlite3", "~> 1.4.0"
+gem 'rails_12factor'
+# gem "sqlite3", "~> 1.4.0"
 
 # Store sessions in the database
 gem "activerecord-session_store", "~> 2.0.0"
